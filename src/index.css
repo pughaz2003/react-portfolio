@@ -14,9 +14,13 @@ body{
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
 }
-.mobile-nav{
-      @apply fixed top-20 left-0  w-full h-80  bg-slate-700 text-center rounded-lg;
+.nav{
+  @apply fixed
 }
+
+ .mobile-nav{
+      @apply  fixed top-[53px] left-0  w-full h-80  bg-slate-700 text-center;
+}  
  
  
  
@@ -24,12 +28,10 @@ body{
   
 
 
-.glass{
+/* .glass{
   background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
-  border-radius: 15px;
+  /* border-radius: 15px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Shadow with black color */
-  backdrop-filter: blur(10px); /* Blur effect */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border to enhance the glass effect */
-  
- 
-}
+  /* backdrop-filter: blur(10px); /* Blur effect */
+  /* border: 1px solid rgba(255, 255, 255, 0.3); /* Light border to enhance the glass effect */
+   /* }  */

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section id='' className='px-6 mb-10'>
+    <section id='about' className='px-6 mb-10'>
     <h1 className='text-4xl gradient-text font-semibold text-center'>About</h1>
     <div className='lg:px-44'>
     <div className='text-white p-4  w-full h-auto border-2 border-purple-700 mb-14 shadow-[2px_1px_20px_6px_#5a67d8] mt-14 '>
@@ -17,43 +17,43 @@ export default function About() {
     
   
     <h1 className='text-3xl text-center gradient-text font-semibold'>Skills</h1>
-    <div className=' flex flex-wrap justify-center gap-8 mt-16 '>
-    <div className='w-64 h-72 glass rounded-md'>
+    <div className=' flex flex-wrap justify-center gap-8 mt-12 '>
+    <div className='w-64 h-72 bg-slate-700 rounded-md'>
       <h1 className='text-2xl text-center mt-4 font-semibold text-white'>programming languages</h1>
       <ul className='flex flex-wrap gap-7 justify-center mt-4'>
-        <li className=' h-9 w-32 bg-slate-600 rounded-full text-center text-white py-1'  >Javascript</li>
-        <li  className=' h-9 w-28 bg-slate-600 rounded-full text-center text-white py-1'>Python</li>
-        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center text-white py-1'>C</li>
-        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center text-white py-1'>java</li>
+        <li className=' h-9 w-32 bg-slate-600 rounded-full text-center text-white py-1 border-purple-700 border-2'  >Javascript</li>
+        <li  className=' h-9 w-28 bg-slate-600 rounded-full text-center text-white py-1 border-purple-700 border-2'>Python</li>
+        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center text-white py-1 border-purple-700 border-2'>C</li>
+        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center text-white py-1 border-purple-700 border-2'>java</li>
       </ul>
     </div>
-    <div className='w-64 h-72  glass rounded-md'>
+    <div className='w-64 h-72  bg-slate-700 rounded-md'>
     <h1 className='text-2xl text-center mt-6 font-semibold text-white'>Frontend</h1>
       <ul className='flex flex-wrap gap-5 justify-center mt-4'>
-        <li className=' h-9 w-32 bg-slate-600 rounded-full text-center text-white py-1'  >HTML</li>
-        <li  className=' h-9 w-28 bg-slate-600 rounded-full text-center text-white py-1'>CSS</li>
-        <li  className=' h-9 w-28 bg-slate-600 rounded-full text-center text-white py-1'>Javascript</li>
-        <li  className=' h-9 w-28 bg-slate-600 rounded-full text-center text-white py-1'>Tailwindcss</li>
-        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center text-white py-1'>ReactJs</li>
-        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center text-white py-1'>TiltJs</li>
+        <li className=' h-9 w-32 bg-slate-600 rounded-full text-center  border-purple-700 border-2 text-white py-1'  >HTML</li>
+        <li  className=' h-9 w-28 bg-slate-600 rounded-full text-center border-purple-700 border-2 text-white py-1'>CSS</li>
+        <li  className=' h-9 w-28 bg-slate-600 rounded-full text-center border-purple-700 border-2 text-white py-1'>Javascript</li>
+        <li  className=' h-9 w-28 bg-slate-600 rounded-full text-center border-purple-700 border-2 text-white py-1'>Tailwindcss</li>
+        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center border-purple-700 border-2 text-white py-1'>ReactJs</li>
+        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center border-purple-700 border-2 text-white py-1'>TiltJs</li>
       </ul>
     </div>
-    <div className='w-64 h-72  glass rounded-md'>
+    <div className='w-64 h-72 bg-slate-700 rounded-md'>
     <h1 className='text-2xl text-center mt-6 font-semibold text-white'>Known tools</h1>
       <ul className='flex flex-wrap gap-7 justify-center mt-4'>
-        <li className=' h-9 w-32 bg-slate-600 rounded-full text-center text-white py-1'>Canva</li>
-        <li  className=' h-9 w-28 bg-slate-600 rounded-full text-center text-white py-1'>Git</li>
-        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center text-white py-1'>Github</li>
-        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center text-white py-1'>Msoffice</li>
-        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center text-white py-1'> Vscode</li>
+        <li className=' h-9 w-32 bg-slate-600 border-purple-600 border-2 rounded-full text-center text-white py-1'>Canva</li>
+        <li  className=' h-9 w-28 bg-slate-600 border-purple-600 border-2 rounded-full text-center text-white py-1'>Git</li>
+        <li  className=' h-9 w-20 bg-slate-600 border-purple-600 border-2 rounded-full text-center text-white py-1'>Github</li>
+        <li  className=' h-9 w-20 bg-slate-600 border-purple-600 border-2 rounded-full text-center text-white py-1'>Msoffice</li>
+        <li  className=' h-9 w-20 bg-slate-600 border-purple-600 border-2 rounded-full text-center text-white py-1'> Vscode</li>
        </ul>
     </div>
-    <div className='w-64 h-72  glass rounded-md'>
+    <div className='w-64 h-72 bg-slate-700 rounded-md'>
     <h1 className='text-2xl text-center mt-6 font-semibold text-white'>Backend</h1>
       <ul className='flex flex-wrap gap-7 justify-center  mt-5'>
-        <li className=' h-9 w-32 bg-slate-600 rounded-full text-center text-white py-1'>Node Js</li>
-        <li  className=' h-9 w-28 bg-slate-600 rounded-full text-center text-white py-1'>MangoDB</li>
-        <li  className=' h-9 w-20 bg-slate-600 rounded-full text-center text-white py-1'>Express Js</li>
+        <li className=' h-9 w-32 bg-slate-600 rounded-full   border-purple-700 border-2  text-center text-white py-1'>Node Js</li>
+        <li  className=' h-9 w-28 bg-slate-600 rounded-full  border-purple-700 border-2  text-center text-white py-1'>MangoDB</li>
+        <li  className=' h-9 w-20 bg-slate-600 rounded-full  border-purple-700 border-2  text-center text-white py-1'>Express Js</li>
         
       </ul>
     </div>

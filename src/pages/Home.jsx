@@ -14,7 +14,7 @@ const [typeEffect] = useTypewriter({
     <section id="home" className='px-5 mb-14 mt-10 '>
   <div className='container  mx-auto  flex justify-center flex-col sm:flex-row'>
            <div className='md:w-1/2  text-center md:text-left'>
-            <h2 className=' text-white text-3xl lg:text-4xl  font-bold  mt-14 font-new-font '>Hello, I'm <span className="gradient-text text-3xl lg:text-5xl font-bold">
+            <h2 className=' text-white text-3xl lg:text-4xl  font-bold  mt-14 font-hero-font '>Hello, I'm <span className="gradient-text text-3xl lg:text-5xl font-bold">
             pughazhendhi</span> </h2>
             <p className='text-3xl text-white mt-3'>and i am a Passionate</p>
           <div className="mt-2"><span className='font-bold gradient-text text-3xl lg:text-4xl font-hero-font'>{typeEffect}</span> <span className="bg-white"><Cursor /></span></div>

@@ -22,8 +22,8 @@ const [typeEffect] = useTypewriter({
     <a href="https://www.linkedin.com/in/pughazhendhi-s-717920249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='w-4 h-3  bg-gradient-to-r from-gray-100 to-gray-300 p-3 rounded-full  hover:opacity-80 ease-in duration-200'>Let's Connect</a>
             </div>
             </div>
-        <div className='md:w-1/2'>
-         <img src={image} className="" alt="" />
+        <div className='md:w-1/2 '>
+         <img src={image} className=" mt-5" alt="" />
            </div>
          </div>
      </section>

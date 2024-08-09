@@ -9,8 +9,10 @@ export default {
   theme: {
     extend: { },
     fontFamily :{
-      'hero-font' :'Work sans'
+      'hero-font' :'Work sans',
+      'new-font' :"Kalnia Glaze"
     }
+   
   },
   plugins: [
     

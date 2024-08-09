@@ -12,7 +12,7 @@ emailjs.sendForm('service_7h8z5ca','template_khrhcqm',e.target,"Fbu-EpR3jkU10V85
 
   return (
     <section id="contact" className=''>
-             <h2 className="text-3xl gradient-text font-semibold text-center mt-10">Contact me</h2>
+             <h2 className="text-3xl gradient-text font-semibold text-center mt-10 font-hero-font">Contact me</h2>
                 <div className="flex items-center justify-center p-12">
                    <div className="mx-auto w-full max-w-[550px]">
                    

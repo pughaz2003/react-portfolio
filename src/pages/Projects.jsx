@@ -6,7 +6,7 @@ import image3 from '../assets/Screenshot3.png'
 export default function Projects() {
   return (
     <section id='project' className='px-5'>
-      <h2 className='text-4xl gradient-text text-center font-semibold mt-14'>Projects</h2>
+      <h2 className='text-4xl gradient-text text-center font-semibold mt-14 font-hero-font'>Projects</h2>
       <div className='flex flex-wrap gap-6 justify-center mt-16'>
       <div className='w-[360px] h-72 bg-slate-700 rounded-lg p-4'>
         <img src={image1} alt="" />

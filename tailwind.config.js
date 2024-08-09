@@ -7,9 +7,10 @@ export default {
     
   ],
   theme: {
-    extend: {
-      
-    },
+    extend: { },
+    fontFamily :{
+      'hero-font' :'Worksans'
+    }
   },
   plugins: [
     

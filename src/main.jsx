@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom/client'
  import About from './pages/About.jsx'
  import Projects from './pages/Projects.jsx'
  import Contact from './pages/Contact.jsx'
-
+ import Footer from './pages/Footer.jsx'
 
 
 
@@ -21,5 +21,6 @@ import ReactDOM from 'react-dom/client'
   <About/>
   <Projects/>
   <Contact/> 
+  <Footer/>
    </React.StrictMode>
  )

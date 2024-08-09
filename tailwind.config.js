@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: { },
     fontFamily :{
-      'hero-font' :'Worksans'
+      'hero-font' :'Work sans'
     }
   },
   plugins: [

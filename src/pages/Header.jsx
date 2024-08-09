@@ -17,7 +17,7 @@ const [toogleMenu,setToogleMenu] = useState(false);
     
     
      {toogleMenu &&  <nav className='block md:hidden  mobile-nav  text-white'>
-      <ul className='flex flex-col text-2xl font-semibold space-y-7 mt-6 font-hero-font'>
+      <ul className='flex flex-col text-xl font-semibold space-y-7 mt-6 font-hero-font'>
        <a href="#home"className=''>Home</a>
        <a href="#about">About</a>
        <a href="#project">Project</a>
